@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="OnlineClinicSystem.MasterPages.Main" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" href="../Style/Main.css" type="text/css" />
+    <link rel="Stylesheet" href="../Style/Body.css" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Resources/FavIcon.png"/>
+    <asp:ContentPlaceHolder ID="MainHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="MainForm" runat="server">
+    <asp:ToolkitScriptManager ID="ScriptManager" runat="server">
+    </asp:ToolkitScriptManager>
+    <div class="Wrapper">
+        <div class="DivHeader">
+            <div class="FloatLeft Logo"><a href="../Index.aspx">
+            <asp:Image runat="server" ImageUrl="~/Resources/XYZ.png" Height="90%" />
+            </a></div>
+            <div class="FloatRight Social"><a href="../General/ContactUs.aspx">
+            <asp:Image runat="server" ImageUrl="~/Resources/Facebook.png" Height="25px" BorderWidth="0px" />&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image runat="server" ImageUrl="~/Resources/Twitter.png" Height="25px" />
+            </a></div>
+        </div>
+
+        <div class="DivMenu">
+
+            <div class="DivMenuItem FloatLeft"><a href="../Index.aspx">
+                <asp:Image runat="server" ImageUrl="~/Resources/Home.png" Height="90%" />
+                HOME
+            </a></div>
+            <div class="DivMenuItem FloatLeft"><a href="../Authentication/Login.aspx">
+                <asp:Image runat="server" ImageUrl="~/Resources/Login.png" Height="90%" />
+                LOGIN
+            </a></div>
+            <div class="DivMenuItem FloatLeft"><a href="../Authentication/SignUp.aspx">
+                <asp:Image runat="server" ImageUrl="~/Resources/Register.png" Height="90%" />
+                REGISTER
+            </a></div>
+            <div class="DivMenuItem FloatRight"><a href="../General/AboutUs.aspx">
+                <asp:Image runat="server" ImageUrl="~/Resources/Search.png" Height="90%" />
+                ABOUT
+            </a></div>
+            <div class="DivMenuItem FloatRight"><a href="../General/LocateUs.aspx">
+                <asp:Image runat="server" ImageUrl="~/Resources/Location.png" Height="90%" />
+                LOCATE
+            </a></div>
+            <div class="DivMenuItem FloatRight"><a href="../General/ContactUs.aspx">
+                <asp:Image runat="server" ImageUrl="~/Resources/Mobile.png" Height="90%" />
+                CONTACT
+            </a></div>
+            <div class="DivMenuItem FloatRight"><a href="../General/Feedback.aspx">
+                <asp:Image runat="server" ImageUrl="~/Resources/Comments.png" Height="90%" />
+                FEEDBACK
+            </a></div>
+        </div>
+
+        <div class="DivBody">
+            <asp:ContentPlaceHolder ID="BodyCP" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="DivFooter">
+        OCS-04 | RLL | Team 04 | Copyright © 2013 | All rights Reserved
+        </div>
+    </div>
+    </form>
+</body>
+</html>

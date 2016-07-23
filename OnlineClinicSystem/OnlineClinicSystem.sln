@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineClinicSystem", "OnlineClinicSystem\OnlineClinicSystem.csproj", "{FA5EBF71-E8B8-4C9D-B50F-E11BEDE8820F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineClinicSystemClassLibrary", "OnlineClinicSystemClassLibrary\OnlineClinicSystemClassLibrary.csproj", "{68172C57-81B0-48C5-9B6A-E96B7BC63285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA5EBF71-E8B8-4C9D-B50F-E11BEDE8820F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5EBF71-E8B8-4C9D-B50F-E11BEDE8820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5EBF71-E8B8-4C9D-B50F-E11BEDE8820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5EBF71-E8B8-4C9D-B50F-E11BEDE8820F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68172C57-81B0-48C5-9B6A-E96B7BC63285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68172C57-81B0-48C5-9B6A-E96B7BC63285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68172C57-81B0-48C5-9B6A-E96B7BC63285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68172C57-81B0-48C5-9B6A-E96B7BC63285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
